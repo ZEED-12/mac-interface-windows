@@ -1,0 +1,27 @@
+# Personal state (never commit: contains your registry backup, location, paths)
+mac_backup*.json
+settings.json
+widgets.json
+dock_apps.json
+widget_notes.txt
+ipc.txt
+debug_state.json
+mac_error.log
+
+# Generated on first run
+wallpapers/
+widgets_custom/
+docs/screenshots/.notes_demo.txt
+
+# Apple's official wallpapers are Apple's property — keep them local only
+mac_wallpaper.*
+mac_wallpaper_*.png
+
+# Python / Windows
+__pycache__/
+*.pyc
+desktop.ini
+Thumbs.db
+
+# GitHub Actions workflow waiting for the "workflow" token scope
+.github_pending/
